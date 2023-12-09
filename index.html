@@ -11,8 +11,10 @@
 </head>
 <body>
     <div class="caixa-video-mario">
-        <video src="./imgs/video.mp4" autoplay muted loop></video>
+        <video class="video" src="./imgs/video.mp4" autoplay muted loop></video>
+        <video src="./imgs/video2.mp4" autoplay muted loop></video>
         <div class="mascara-video"></div>
+        <div class="mascara2"></div>
     </div>
 
     <div class="caixa-principal">
@@ -26,7 +28,7 @@
 
     <img src="./imgs/logo.png" alt="logo do super mario" class="imagem-mario-luigi" id="piscando">
 
-    <form class="fale-conosco" ação="https://formsubmit.co/hyago.desenvolvedor@gmail.com _" method="POST">
+    <form class="fale-conosco" action="https://formsubmit.co/hyago.desenvolvedor@gmail.com" method="POST">
         <input placeholder="Seu nome" type="nome" nqme="nome">
         <input placeholder="Seu telefone" type="tel" name="telefone">
         <textarea placeholder="Digite seu problema aqui" name="info"></textarea>
@@ -41,7 +43,7 @@
 
 
     function cliqueiNoBotao(){
-        formulario.style.left = "700px"
+        formulario.style.left = "300px"
         mascara.style.visibility = "visible"
     }
 
